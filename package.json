@@ -1,14 +1,16 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "node-typescript-ethers-boilerplate",
   "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "description": "Minimalistic boilerplate to quick-start Node.js development with ethers.js in TypeScript.",
   "type": "module",
   "engines": {
-    "node": ">= 16.13 <17"
+    "node": "17.5"
   },
   "devDependencies": {
     "@types/jest": "~27.5",
     "@types/node": "~16",
+    "@types/node-cron": "^3.0.1",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "~5.26",
     "@typescript-eslint/parser": "~5.26",
     "eslint": "~8.16",
@@ -36,9 +38,12 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "tslib": "~2.4"
+    "ethers": "^5.6.2",
+    "node-cron": "^3.0.1",
+    "tslib": "~2.4",
+    "uuid": "^8.3.2"
   },
   "volta": {
-    "node": "16.13.0"
+    "node": "17.5"
   }
 }

@@ -1,3 +1,5 @@
+settings.ts
+
 # Logs
 logs
 *.log
@@ -13,8 +15,9 @@ coverage
 build/
 
 # VS Code
-.vscode
+.vscode/*
 !.vscode/tasks.js
+!.vscode/launch.json
 
 # JetBrains IDEs
 .idea/
